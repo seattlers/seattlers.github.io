@@ -16,7 +16,7 @@ layout: default
     </ul>
     <h2> Previous Meetups</h2>
     <ul class="meetup-list">
-    {% for meetup in meetups %}
+    {% for meetup in meetups limit:5 %}
       <li>
         <h2>
           <a class="meetup-link" href="{{ meetup.link }}">{{ meetup.title }}</a>
