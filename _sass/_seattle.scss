@@ -1,8 +1,14 @@
 a {
   color: #428bca;
 
-  &:hover {
+  &:hover,
+  &:active,
+  &:visited {
     color: #2a6496;
+  }
+
+  &:hover,
+  &:active {
     text-decoration: underline;
   }
 }
@@ -23,9 +29,14 @@ header {
     }
 
     &:last-child {
+      width: 200px;
       position: absolute;
       right: 5rem;
       bottom: 0;
+
+      @include media-query($on-tablet) {
+        display: none;
+      }
     }
   }
 
@@ -34,6 +45,10 @@ header {
     font-weight: lighter;
     text-align: left;
     max-width: 450px;
+
+    @include media-query($on-tablet) {
+      max-width: none;
+    }
 
     em {
       font-weight: bolder;
@@ -58,6 +73,11 @@ main {
 
   ul {
     list-style: none;
+
+    @include media-query($on-tablet) {
+      padding-left: 0;
+      margin-left: 0;
+    }
 
     li {
       h3 {
