@@ -13,3 +13,5 @@ excerpt_separator: "<!--more-->"
 markdown: kramdown
 collections:
   - meetups
+
+timezone: America/Los_Angeles
