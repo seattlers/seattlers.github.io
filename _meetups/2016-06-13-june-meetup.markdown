@@ -5,4 +5,4 @@ date:   2016-06-14 02:00:00
 link: http://www.meetup.com/Seattle-Rust-Meetup/events/231008217
 where: Rooster Park
 ---
-A discussion around lifetimes and how things have evolved over the course of 1.X Rust.
+A discussion around lifetimes and how things have evolved over the course of 1.X Rust by Jameson Ernst.
