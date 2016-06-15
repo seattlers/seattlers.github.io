@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Monthly Meetup for April"
-date:   2016-04-11 19:00:00
+date:   2016-04-11 19:00:00 -0700
 link: http://www.meetup.com/Seattle-Rust-Meetup/events/229599787
 where: Rooster Park
 ---
