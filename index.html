@@ -11,12 +11,12 @@ layout: default
         <p>{{ meetup.date | date: "%B %-d, %Y at %l:%M%P" }} &mdash; {{ meetup.where }}</p>
         <p></p>
         <p>{{ meetup.content }}</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.3727216841444!2d-122.34247698436839!3d47.638323479186774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490151987896887%3A0x8cd2c06d3ed826a8!2s2100+Westlake+Ave+N+%23107%2C+Seattle%2C+WA+98109!5e0!3m2!1sen!2sus!4v1460419459049" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.949938428252!2d-122.33693948444665!3d47.607663095897756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906ab3e201dcd5%3A0x74d3b3b81745ba32!2sAda+Developers+Academy+HQ!5e0!3m2!1sen!2sus!4v1474954247730" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
       </li>
     </ul>
     <h2> Previous Meetups</h2>
     <ul class="meetup-list">
-    {% for meetup in meetups limit:5 %}
+    {% for meetup in meetups limit:5 offset:1 %}
       <li>
         <h2>
           <a class="meetup-link" href="{{ meetup.link }}">{{ meetup.title }}</a>
