@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Monthly Meetup for December"
-date:   2016-12-12 19:00:00 -0700
+date:   2016-12-12 19:00:00 -0800
 link: https://www.meetup.com/Seattle-Rust-Meetup/events/235157890
 where: Ada Developers Academy HQ
 ---
