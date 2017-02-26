@@ -4,8 +4,8 @@ layout: default
 {% assign meetups = site.meetups | sort: 'date' | reverse %}
 <main class="home">
     <h2>The Next Meetup</h2>
-    <ul class="current-meetup-list">
-      <li>
+    <ul class="meetup-list">
+      <li class="meetup-list-item">
         {% assign meetup = meetups.first %}
         <h3><a href="{{ meetup.link }}">{{ meetup.title }}</a></h3>
         <p>{{ meetup.date | date: "%B %-d, %Y at %l:%M%P" }} &mdash; {{ meetup.where }}</p>
@@ -18,7 +18,7 @@ layout: default
     <h2> Previous Meetups</h2>
     <ul class="meetup-list">
     {% for meetup in meetups limit:5 offset:1 %}
-      <li>
+      <li class="meetup-list-item">
         <h2>
           <a class="meetup-link" href="{{ meetup.link }}">{{ meetup.title }}</a>
         </h2>
