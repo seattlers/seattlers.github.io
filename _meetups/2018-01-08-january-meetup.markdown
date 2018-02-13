@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Monthly Meetup for January"
-date:   2017-01-08 19:00:00 -0700
+date:   2018-01-08 19:00:00 -0700
 link: https://www.meetup.com/Seattle-Rust-Meetup/events/244882002/
 where: Ada Developers Academy HQ
 ---
