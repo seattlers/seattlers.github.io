@@ -1,10 +1,10 @@
 title: seattle.rs
-email: trey@seattle.rs
+email: joe@lemma.co
 description: >
   Seattle's Rust meetup group, seattle.rs. We have talks about learning
   and using Rust in today's industry.
 baseurl: ""
-url: "http://seattle.rs"
+url: "https://seattle.rs"
 twitter_username: seattlers
 github_username:  seattlers
 
