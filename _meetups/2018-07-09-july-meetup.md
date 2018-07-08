@@ -10,8 +10,8 @@ This month: Joe Ranweiler will give a beginner-friendly talk on lifetimes, borro
 
 ### Schedule
 
-6:30 - 7 p.m.: Meet & greet
-7 - 9 p.m.: Talk
+- 6:30 - 7 pm: Meet & greet
+- 7 - 9 pm: Talk
 
 
 We'll be at [Microsoft Reactor Westlake](https://developer.microsoft.com/en-us/reactor/#ReactorSeattle).
