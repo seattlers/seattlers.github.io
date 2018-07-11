@@ -108,16 +108,24 @@ footer {
   text-align: right;
 
   .wrapper {
-    padding: 1rem;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
   }
 
-  span {
-    margin-right: 0.2rem;
+  .credit {
   }
 
-  .octicon {
-    display: inline-block;
-    vertical-align: middle;
-    fill: currentColor;
+  .github {
+      span {
+          margin-right: 0.2rem;
+      }
+
+      .octicon {
+          display: inline-block;
+          vertical-align: middle;
+          fill: currentColor;
+      }
   }
 }
